@@ -76,21 +76,23 @@ Just run the files Mistral_synopsis.py and Llama2_synopsis.py inside ```./Embedd
 
 For the PCA plots, run the files Mistral_syn_PCA.ipynb and Llama2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Regardless GPT2 and StoneAxe cases, here tensor truncation was not required (shape was [samples, 4096]).
 
-For the regressions, run the file GPT2_regression.py inside ```./Regressions```. The runs reported in the paper are stored in ```./Regressions/Original runs```
+For the regressions, run the files Llama2_regression.py and Mistral_regression.py inside ```./Regressions```. The runs reported in the paper are stored in ```./Regressions/Original runs```
 
+
+### StoneAxe embeddings.
+
+.............
+
+
+### Citation
+
+
+### Licence
 
 
 ```python
-def greet(name):
-    print("Hello, " + name + "!")
+print("Thanks for read! :)")
 ```
-
-GPT2 synopsis embeddings
-Mistral and Llama2 synopsis embeddings <i>(requires ollama)</i>
-StoneAxe 1.0 embeddings <i>(requires ollama)</i>
-PCA representations
-Regressions
-
 
 
 
