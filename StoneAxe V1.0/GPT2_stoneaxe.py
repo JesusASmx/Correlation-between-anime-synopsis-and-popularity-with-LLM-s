@@ -65,4 +65,5 @@ for i in range(len(todos)):
 
     embeddings = torch.cat(embeddings, dim=0).to(device)
     print(f"{name[i]} tensor shape:" embeddings.shape)
-    torch.save(embeddings, f'GPT2_embs_sx_{name[i]}.pt')
+    nombre = f'GPT2_embs_sx_{name[i]}.pt' #Means "name" in spanish
+    torch.save(embeddings, "..//Embeddings//StoneAxe_embs//"+nombre)
