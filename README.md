@@ -1,9 +1,11 @@
 # Can NLP predict the popularity of your favorite anime before huge investments? A study with LLM's
 
-NOTA: por ahora, escala las imágenes a mano en GIMP xdxdxd
-![random waifu](https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/blob/main/assets/random_waifu_mini.png)
-
-Paper: *ArXIV (when available)*
+<table>
+    <tr>
+        <th> <img src="https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/blob/main/assets/random_waifu_mini.png"> </th>
+        <th align="left"> Paper: <i>ArXIV (when available)</i> <br/> StoneAxe V1.1 <i>repo when available</i> </th>
+    </tr>
+</table>
 
 This repository is for reproduct the results. It also contains the mere first version of StoneAxe: the first extractor of Generalized Propp Functions.
 
