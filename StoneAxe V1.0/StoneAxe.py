@@ -95,7 +95,7 @@ def StoneAxe(sample, spacy_parser, window, your_proxy):
 from tqdm import tqdm
 
 def run(df, target, origin, score, spacy_parser, pad, your_proxy):
-    discursemas = {} #In a blatlant arrogant movement, we named our poor representation of Propp functions (who are, as Barthes outlined, non-terminal proposals for discoursemmes). Please forgive us :'(
+    discursemas = {} 
 
     for i in tqdm(df.index, desc="Processed sample"):
         sample = df[target][i]
