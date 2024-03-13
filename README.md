@@ -6,7 +6,7 @@
     <a href=https://www.apache.org/licenses/LICENSE-2.0><img align="center" src="https://img.shields.io/badge/Licence-Apache_2.0-lightgray"></a>
 </p>
 
-<img align="center" src="https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/blob/main/assets/anime_pop2.jpg">
+<img align="center" src="https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/blob/main/assets/anime_pop.png">
 
 This is the official repository for reproduce the results reported at the paper:
 
