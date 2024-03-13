@@ -58,8 +58,11 @@ source anime_virtual_enviroment/bin/activate
 
 ### GPT2 embeddings of synopsis.
 
-Just run the file GPT2_synopsis.py. Be sure to have the dataset at ```./Database``` (the dataset is available upon request).
+Just run the file GPT2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database``` (the dataset is available upon request).
 
+For the PCA plots, run the file GPT2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Due memory constraints, tensors were truncated at 10,000
+
+For the regressions, run the file GPT2_regression.py inside ```./Regressions```. The runs reported in the paper are stored in ```./Regressions/Original runs```
 
 
 ### Mistral and Llama2 embeddings of synopsis.
@@ -68,6 +71,14 @@ Additional Requirements:
 <ul>
     <li>Ollama. <a href=https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/tree/main/Embeddings>(click here to check the specifications of our ollama)</a></li> 
 </ul>
+
+Just run the files Mistral_synopsis.py and Llama2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database``` (the dataset is available upon request).
+
+For the PCA plots, run the files Mistral_syn_PCA.ipynb and Llama2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Regardless GPT2 and StoneAxe cases, here tensor truncation was not required (shape was [samples, 4096]).
+
+For the regressions, run the file GPT2_regression.py inside ```./Regressions```. The runs reported in the paper are stored in ```./Regressions/Original runs```
+
+
 
 ```python
 def greet(name):
