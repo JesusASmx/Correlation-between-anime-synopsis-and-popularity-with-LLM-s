@@ -2,11 +2,14 @@
 
 <table>
     <tr>
-        <th rowspan="2"><img src="https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/blob/main/assets/anime_pop2.jpg"></th>
-        <th align="left">Paper: <i>ArXIV</i> <br/><br/> StoneAxe V1.1 <i>repo when available</i> (requires ollama) <br/><br/> </th>
+        <th rowspan="3"><img src="https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/blob/main/assets/anime_pop2.jpg"></th>
+        <th align="left">Paper: <i>ArXIV</i> <br/><br/> StoneAxe V1.1 <i>repo when available</i> (requires ollama) <br/><br/> Database: for reviewers, it was uploaded in the journal's webpage </th>
     </tr>
     <tr>
-        <th align="left">Reproduce GPT2 synopsis embeddings: LIGA <br/><br/> Reproduce Mistral and Llama2 embeddings: LIGA (requires ollama) <br/><br/> Reproduce StoneAxe 1.0 embeddings: LIGA <br/><br/> Reproduce PCA representations: LIGA <br/><br/> Reproduce regressions: LIGA <br/><br/> Database: for reviewers, it was uploaded in the journal's webpage</th>
+        <th align="center">Links for results reproduction:</th>
+    </tr>
+    <tr>
+        <th align="center">GPT2 synopsis embeddings <br/><br/> Mistral and Llama2 synopsis embeddings <br/> <i>(requires ollama)</i> <br/><br/> StoneAxe 1.0 embeddings<br/><i>(requires ollama)</i> <br/><br/> PCA representations <br/><br/> Regressions </th>
     </tr>
 </table>
 
