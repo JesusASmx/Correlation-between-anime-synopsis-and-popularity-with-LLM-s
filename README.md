@@ -42,17 +42,17 @@ And the python library versions were:
 <ul>
     <li>Transformers - Latest (march 2024)</li>
     <li>SpaCy - Latest (march 2024)</li>
-    <li>NumPy, Pandas, Tqdm, ..., ... - Latest (march 2024)</li>
+    <li>NumPy, Pandas, Tqdm - Latest (march 2024)</li>
     <li>Torch - 1.10.1</li>
 </ul>
 
 It is important to recall that we first installed the latest Transformers library, and then Torch==1.10.1.
 
-Also, we employed a virtual enviroment, initialized with <i>venv</i>:
+Also, we employed a virtual enviroment, initialized with <i>venv</i>, in a VIM editor on Ubuserver:
 
 ```python
-python3 venv anime_virtual_enviroment
-source anime_virtual_enviroment/bin/activate
+>>> python3 venv anime_virtual_enviroment
+>>> source anime_virtual_enviroment/bin/activate
 ```
 
 
@@ -83,15 +83,19 @@ For the regressions, run the files Llama2_regression.py and Mistral_regression.p
 
 .............
 
+### Licence
+This work is licensed under the <a href=https://www.apache.org/licenses/LICENSE-2.0>Apache 2.0 Licence</a>.
+
+<a href=https://www.apache.org/licenses/LICENSE-2.0><img align="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZU59RTNWfMysx4V5PYNOW_WTchiizy3fU8BbmB0BL-g&s"></a>
+
+By using any part of this work (implicitly or explicitly), you acknowledge that you have read the license terms, understand them, and agree to be bound by them. If you do not agree with these terms and conditions, you must not use the code.
 
 ### Citation
 
+If you use the Dataset, use part of our code -implicitly/explicitly-, use StoneAxe either V1.0 or V1.1. for your research projects, please cite the follow paper:
 
-### Licence
-
-
-```python
-print("Thanks for read! :)")
+```LaTex
+@Bibtext reference
 ```
 
 
