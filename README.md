@@ -20,10 +20,10 @@ Paper-Title Jesús Armenta-Segura, Olga Kolesnokova, Grigori Sidorov
 
 The experiments were performed with the follow hardware:
 <ul>
-    <li>MODELO DE LA TARJETA GRÁFICA.</li>
-    <li>PROCESADOR.</li>
-    <li>MEMORIA RAM.</li>
-    <li>MEMORIA VRAM.</li>
+    <li>Graphic card: NVIDIA Quadro RTX 6000/8000</li>
+    <li>Processor: Intel Xeon E3-1200</li>
+    <li>RAM: 62 gb</li>
+    <li>VRAM: 46 gb</li>
 </ul>
 
 
@@ -31,16 +31,16 @@ The experiments were performed with the follow hardware:
 
 The employed software was the follow:
 <ul>
-    <li>CUDA ????</li>
-    <li>OS: Ubuntu Server VERSION</li>
-    <li>Vim version ???</li>
-    <li>Python version: 3.???</li>
+    <li>CUDA  V10.1.243<li>
+    <li>OS: Ubuntu Server 20.04.3 LTS</li>
+    <li>Vim version 8.1</li>
+    <li>Python version: 3.8.10</li>
 </ul>
 
 And the python library versions were:
 <ul>
-    <li>Transformers - Latest (march 2024)</li>
-    <li>SpaCy - Latest (march 2024)</li>
+    <li>Transformers: 4.39.0.dev0</li>
+    <li>SpaCy: 3.7.4</li>
     <li>NumPy, Pandas, Tqdm - Latest (march 2024)</li>
     <li>Torch - 1.10.1</li>
 </ul>
