@@ -1,7 +1,7 @@
 # <center> Can NLP predict the popularity of your favorite anime before huge investments? A study with LLM's </center>
 
 <p align="center">
-    <a href=https://arxiv.org><img align="center" src="https://img.shields.io/badge/arXiv-mimi.mimim-b31b1b.svg"></a>
+    <a href=https://arxiv.org><img align="center" src="https://img.shields.io/badge/arXiv-comming.soon!-b31b1b.svg"></a>
     <a href=https://www.apache.org/licenses/LICENSE-2.0><img align="center" src="https://img.shields.io/badge/Licence-Apache_2.0-lightgray"></a>
 </p>
 
