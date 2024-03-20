@@ -57,7 +57,7 @@ Also, we employed a virtual enviroment, initialized with <i>venv</i>, in a VIM e
 
 ### GPT2 embeddings of synopsis.
 
-Just run the file GPT2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database``` (the dataset will be available for the final version of the repo).
+Just run the file GPT2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database``` (it will be available for the final version of the repo).
 
 For the PCA plots, run the file GPT2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Due memory constraints, tensors were truncated at 10,000
 
