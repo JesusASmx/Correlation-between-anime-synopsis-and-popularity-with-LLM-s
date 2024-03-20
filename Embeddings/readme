@@ -1,4 +1,17 @@
-# Ollama specifications
+Here, you can find the code for embeddings. You can use the output to feed a traditional regressor or a most elaborated neural network.
+
+OLLAMA SPECIFICATIONS:
+<ul>
+    <li>Version 0.1.28</li>
+    <li>RAM: 128 gb</li>
+    <li>VRAM: 8 gb</li>
+</ul>
+Due this specifications, it was technically impossible to finetune the models for the task. However, results showed that both ollama embeddings outperformed all finetunned GPT-2 versions.
 
 
-TAREA: pos ponerlas wey jajatla
+GENERAL CONSIDERATIONS:
+<ul>
+  <li>The GPT-2 code is an adapted version of [George Mihaila's tutorial for classification with GPT-2](https://gmihaila.github.io/tutorial_notebooks/gpt2_finetune_classification/).
+The main changes were the adaptation for regression instead of classification, the dataset loading and the adding of an embedding-saver.</li>
+  <li>For the ollama embeddings (Llama2 and Mistral), you may need your own local proxy of ollama. We stated where in the code.</li>
+</ul>
