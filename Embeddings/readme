@@ -9,6 +9,6 @@ Due this specifications, it was technically impossible to finetune the models fo
 
 
 GENERAL CONSIDERATIONS:
-*) The GPT-2 code is an adapted version of [George Mihaila's tutorial for classification with GPT-2](https://gmihaila.github.io/tutorial_notebooks/gpt2_finetune_classification/).
+*) The GPT-2 code is an adapted version of George Mihaila's tutorial for classification with GPT-2: https://gmihaila.github.io/tutorial_notebooks/gpt2_finetune_classification/
     -) The main changes were the adaptation for regression instead of classification, the dataset loading and the adding of an embedding-saver.
 *)For the ollama embeddings (Llama2 and Mistral), you may need your own local proxy of ollama. We stated where in the code.
