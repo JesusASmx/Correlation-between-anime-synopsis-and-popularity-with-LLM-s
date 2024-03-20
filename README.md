@@ -73,7 +73,7 @@ Additional Requirements:
 
 Just run the files Mistral_synopsis.py and Llama2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database```.
 
-For the PCA plots, run the files Mistral_syn_PCA.ipynb and Llama2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Regardless the GPT2 case, here tensor truncation was not required (shape was [samples, 4096]).
+For the PCA plots, run the files Mistral_syn_PCA.ipynb and Llama2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Regardless the GPT2 case, here tensor truncation was not required since the shape was [n° samples, 4096].
 
 For the regressions, run the files Llama2_regression.py and Mistral_regression.py inside ```./Regressions```. The runs reported in the paper are stored in ```./Regressions/Original runs```
 
@@ -87,7 +87,7 @@ By using any part of this work (implicitly or explicitly), you acknowledge that 
 
 ### Citation
 
-If you use the Dataset and/or use part of our code -implicitly/explicitly- for your research projects, please reference and cite this repository.
+If you use the Dataset and/or use part of our code -implicitly/explicitly- for your research projects, please reference and cite this repository. Once submitted the paper, it will be mandatory to actualize all citations to it (we encourage you to visit this repo weekly, in order to be sure).
 
 
 
