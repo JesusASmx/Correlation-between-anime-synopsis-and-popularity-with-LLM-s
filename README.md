@@ -59,10 +59,6 @@ Also, we employed a virtual enviroment, initialized with <i>venv</i>, in a VIM e
 
 Just run the file GPT2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database``` (it will be available for the final version of the repo).
 
-For the PCA plots, run the file GPT2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Due memory constraints, tensors were truncated at 10,000
-
-For the regressions, run the file GPT2_regression.py inside ```./Regressions```. The runs reported in the paper are stored in ```./Regressions/Original runs```
-
 
 ### Mistral and Llama2 embeddings of synopsis.
 
@@ -72,10 +68,6 @@ Additional Requirements:
 </ul>
 
 Just run the files Mistral_synopsis.py and Llama2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database```.
-
-For the PCA plots, run the files Mistral_syn_PCA.ipynb and Llama2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Regardless the GPT2 case, here tensor truncation was not required since the shape was [n° samples, 4096].
-
-For the regressions, run the files Llama2_regression.py and Mistral_regression.py inside ```./Regressions```. The runs reported in the paper are stored in ```./Regressions/Original runs```
 
 
 ### Licence
