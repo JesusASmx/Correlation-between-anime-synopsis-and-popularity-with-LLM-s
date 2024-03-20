@@ -6,12 +6,12 @@
 </p>
 
 <p align="center">
-    UPDATE 14/03: We uploaded all the related code for obtaining the GPT-2 and ollama embeddings.
+    UPDATE 14/03:  For now, I am only uploading the code for LLM's embeddings. Hence, this repo should be taken as a tutorial (with no didactical instructions) than as a repo for a paper. We will upload the rest of the code once submitted the paper.
 </p>
 
 <img align="center" src="https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/blob/main/assets/anime_pop.png">
 
-This is the official repository for reproduce the results for my final project (to be published on a paper).
+This is the official repository for reproduce the results for my final project (to be published on a journal paper).
 
 
 ## Reproducibility instructions
@@ -87,7 +87,7 @@ By using any part of this work (implicitly or explicitly), you acknowledge that 
 
 ### Citation
 
-If you use the Dataset and/or use part of our code -implicitly/explicitly- for your research projects, cite this repository.
+If you use the Dataset and/or use part of our code -implicitly/explicitly- for your research projects, please reference and cite this repository.
 
 
 
