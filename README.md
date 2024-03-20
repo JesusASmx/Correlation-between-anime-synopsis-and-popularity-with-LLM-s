@@ -5,13 +5,13 @@
     <a href=https://www.apache.org/licenses/LICENSE-2.0><img align="center" src="https://img.shields.io/badge/Licence-Apache_2.0-lightgray"></a>
 </p>
 
+<p align="center">
+    UPDATE 14/03: We uploaded all the related code for obtaining the GPT-2 and ollama embeddings.
+</p>
+
 <img align="center" src="https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/blob/main/assets/anime_pop.png">
 
-This is the official repository for reproduce the results reported at the paper:
-
-```
-Paper-Title Jesús Armenta-Segura, Olga Kolesnokova, Grigori Sidorov
-```
+This is the official repository for reproduce the results for my final project (to be published on a paper).
 
 
 ## Reproducibility instructions
@@ -77,10 +77,6 @@ For the PCA plots, run the files Mistral_syn_PCA.ipynb and Llama2_syn_PCA.ipynb 
 
 For the regressions, run the files Llama2_regression.py and Mistral_regression.py inside ```./Regressions```. The runs reported in the paper are stored in ```./Regressions/Original runs```
 
-
-### StoneAxe embeddings.
-
-.............
 
 ### Licence
 This work is licensed under the <a href=https://www.apache.org/licenses/LICENSE-2.0>Apache 2.0 Licence</a>.
