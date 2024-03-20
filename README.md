@@ -71,7 +71,7 @@ Additional Requirements:
     <li>Ollama. <a href=https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/tree/main/Embeddings>(click here to check the specifications of our ollama)</a></li> 
 </ul>
 
-Just run the files Mistral_synopsis.py and Llama2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database``` (the dataset is available upon request).
+Just run the files Mistral_synopsis.py and Llama2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database```.
 
 For the PCA plots, run the files Mistral_syn_PCA.ipynb and Llama2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Regardless the GPT2 case, here tensor truncation was not required (shape was [samples, 4096]).
 
