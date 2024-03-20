@@ -87,11 +87,7 @@ By using any part of this work (implicitly or explicitly), you acknowledge that 
 
 ### Citation
 
-If you use the Dataset, use part of our code -implicitly/explicitly-, use StoneAxe either V1.0 or V1.1. for your research projects, please cite the follow paper:
-
-```LaTex
-@Bibtext reference
-```
+If you use the Dataset and/or use part of our code -implicitly/explicitly- for your research projects, cite this repository.
 
 
 
