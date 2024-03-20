@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-    UPDATE 14/03:  For now, I am only uploading the code for LLM's embeddings. Hence, this repo should be taken as a tutorial (with no didactical instructions) than as a repo for a paper. We will upload the rest of the code once submitted the paper.
+    UPDATE 14/03:  For now, I am only uploading the code for LLM's embeddings. Hence, this repo should be taken as a tutorial (with no didactical instructions) than as a repo for a paper. We will upload the rest of the code (mainly the PCA analysis and our own embeddings for tackle the task) once submitted the paper.
 </p>
 
 <img align="center" src="https://github.com/JesusASmx/Correlation-between-anime-synopsis-and-popularity-with-LLM-s/blob/main/assets/anime_pop.png">
