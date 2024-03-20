@@ -31,7 +31,7 @@ The experiments were performed with the follow hardware:
 
 The employed software was the follow:
 <ul>
-    <li>CUDA  V10.1.243<li>
+    <li>CUDA  V10.1.243</li>
     <li>OS: Ubuntu Server 20.04.3 LTS</li>
     <li>Vim version 8.1</li>
     <li>Python version: 3.8.10</li>
@@ -57,7 +57,7 @@ Also, we employed a virtual enviroment, initialized with <i>venv</i>, in a VIM e
 
 ### GPT2 embeddings of synopsis.
 
-Just run the file GPT2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database``` (the dataset is available upon request).
+Just run the file GPT2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database``` (the dataset will be available for the final version of the repo).
 
 For the PCA plots, run the file GPT2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Due memory constraints, tensors were truncated at 10,000
 
@@ -73,7 +73,7 @@ Additional Requirements:
 
 Just run the files Mistral_synopsis.py and Llama2_synopsis.py inside ```./Embeddings```. Be sure to have the dataset at ```./Database``` (the dataset is available upon request).
 
-For the PCA plots, run the files Mistral_syn_PCA.ipynb and Llama2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Regardless GPT2 and StoneAxe cases, here tensor truncation was not required (shape was [samples, 4096]).
+For the PCA plots, run the files Mistral_syn_PCA.ipynb and Llama2_syn_PCA.ipynb inside ```./PCA analysis```. The figures reported in the paper are attached to the readme (and in the original run on the .ipynb file). Regardless the GPT2 case, here tensor truncation was not required (shape was [samples, 4096]).
 
 For the regressions, run the files Llama2_regression.py and Mistral_regression.py inside ```./Regressions```. The runs reported in the paper are stored in ```./Regressions/Original runs```
 
